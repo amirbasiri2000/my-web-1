@@ -1,0 +1,3 @@
+$('.toolbar i').click(function(){
+    
+})

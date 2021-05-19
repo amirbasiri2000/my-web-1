@@ -1,0 +1,465 @@
+/* ---------campaignBanner---------- */
+
+.campaign-banner{
+   background-color: #c40001;
+   z-index: -1;
+   display: flex;
+}
+/* ---------End campaignBanner---------- */
+/* --------------header----------------- */
+.header-top{
+   margin: 30px;
+}
+header .header-right{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header .header-right .toolbar-icon i{
+   font-size: 1.5em;
+   color: #333;
+   display: none;
+   cursor: pointer;
+   transition: all .1s;
+}
+header .header-right .toolbar-icon i:hover{
+   font-size: 1.47em;
+}
+header .header-right .logo img{
+   display: block;
+}
+header .header-right .logo span{
+   font-size: .8em;
+   color: #999;
+   font-weight: 900;
+}
+header .header-left{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header .header-left .search-input-header{
+   width: 300px;
+   border: none;
+   outline: none;
+   border: 1px solid hsl(200, 40, 94%);
+   border-radius: 5px;
+   font-size: .8em;
+   font-weight: 700;
+   color: #555;
+   padding: 10px 20px;
+   margin-left: 30px;
+   background-color: #f0f0f1;
+}
+header .header-left .icon-user i{
+   font-size: 1.8em;
+   color: #666;
+   display: none;
+}
+header .search-box-sm input{
+   border: none;
+   outline: none;
+   border: 1px solid hsl(200, 40, 94%);
+   border-radius: 5px;
+   font-size: .8em;
+   font-weight: 700;
+   color: #555;
+   padding: 13px 20px;
+   background-color: #f0f0f1;
+   width: 100%;
+   display: none;
+}
+/* --------------navigation--------- */
+nav .nav-content{
+   margin-top: 30px;
+}
+nav .nav-content .nav-right ul{
+   padding: 0;
+}
+nav .nav-content .nav-right ul li{
+   display: inline-block;
+}
+nav .nav-content .nav-right ul li a{
+   color: #666;
+   margin-left: 30px;
+   transition: all .5s;
+   font-size: 1em;
+   margin-right: 15px;
+}
+nav .nav-content .nav-right ul li a:hover{
+   color: rgb(123, 168, 226);
+}
+nav .nav-content .nav-left a i{
+   cursor: pointer;
+   font-size: 1.8em;
+   color: #666;
+}
+nav .nav-content .nav-left a i:hover{
+   color: rgb(123,168,226)
+}
+nav .nav-content .nav-right li{
+  text-align: flex-start;
+}
+nav .nav-content .nav-right ul li ul li{
+   display: none;
+   font-size: .8em;
+   color: #333;
+   margin-right: 30px;
+}
+nav .nav-content .nav-right ul li ul li:nth-child(1){
+   font-size: .9em;
+   color: #111;
+   margin-right: 15px;
+   margin-top: 10px;
+}
+nav .nav-content .nav-right ul li ul li:nth-child(5){
+   font-size: .9em;
+   color: #111;
+   margin-right: 15px;
+}
+nav .nav-content .nav-right ul li ul li:nth-child(10){
+   margin-bottom: 10px;
+}
+/* --------------End navigation--------- */
+/* --------------End header------------- */
+/* -------------main------------- */
+main .main-container{
+   background-color: #f6f9fb;
+}
+main .main-title div{
+   display: inline-block;
+   text-align: center;
+}
+main .main-title .main-title-icon i{
+   background-color: #007bec;
+   padding: 5px 10px;
+   color: #fff;
+   border-radius: 5px;
+   margin-left: 20px;
+}
+main .main-title .main-title-span span{
+   font-size: 1.5em;
+   font-weight: 700;
+   color: #555;
+   margin-left: 20px;
+}
+main .main-title .main-user-condition{
+   background-color: #d9edff;
+   color: #456b94;
+   padding: 4px 10px;
+   border-radius: 5px;
+}
+main .info-title-main div p{
+   font-size: 1.1em;
+   color: #999;
+   margin-top: 30px;
+   font-family: sans;
+   text-align: center;
+   margin-bottom: 50px;
+}
+main .product-line-2{
+   margin-top: 30px;
+}
+main .product-line-3{
+   margin-top: 30px;
+   margin-bottom: 100px;
+   padding-bottom: 100px;
+}
+/* ----------articiles----------- */
+main .articiles .title-articles{
+   padding-bottom: 50px;
+}
+main .articiles .right-title-articles h3{
+   font-size: 1.5em;
+   font-weight: 800;
+   color: #666;
+}
+main .articiles .left-title-articles a{
+   font-size: .8em;
+}
+main .articles-product div {
+   text-align: right;
+}
+main .articles-product div a img{
+   width: 100%;
+   margin-bottom: 20px;
+}
+main .articles-product div a span{
+   font-size: 1em;
+   color: #666;
+}
+/* ----------End articiles----------- */
+/* ---------learning path ----------*/
+main .learning-path-container{
+background-color: #f6f9fb;
+margin-top: 100px;
+padding: 50px 0;
+padding-bottom: 130px;
+}
+main .learning-path-container .learning-path-title h4{
+   margin: 30px 0;
+   font-size: 1.8em;
+   color: #666;
+}
+main .learning-path-container .learning-path-content div{
+   text-align: center;
+   margin-top: 50px;
+}
+main .learning-path-container .learning-path-content div a img{
+   width: 50%;
+   display: block;
+   margin: 20px auto;
+}
+main .learning-path-container .learning-path-content div a span{
+   color: #555;
+   font-size: .8;
+}
+/* ---------End learning path ----------*/
+/* -------------End main------------- */
+/* ---------footer------------ */
+footer{
+   text-align: center;
+}
+footer .footer-right{
+   background-color: #f5f5f5;
+   width: 100%;
+}
+footer .footer-right .title-footer-right p{
+   font-size: 1em;
+   color: #666;
+   padding: 60px 87px;
+   font-family: sans;
+}
+footer .footer-right .footer-right-list ul{
+   margin: 0;
+   padding: 0;
+   padding-top: 70px;
+   padding-bottom: 40px;
+}
+footer .footer-right .footer-right-list ul li{
+   list-style: none;
+   display: inline-block;
+   margin-left: 20px;
+}
+footer .footer-right .footer-right-list ul li a{
+   color: #555;
+   font-size: .9em;
+   font-family: sans;
+}
+footer .footer-right .footer-right-list ul li a:hover{
+   color: #007bff;
+}
+footer .footer-left{
+   background-color: #ececec;
+   padding: 60px 50px 40px 109px;
+}
+footer .footer-left .footer-left-title p{
+   font-size: 1.2em;
+   color: #333;
+   padding-bottom: 30px;
+}
+footer .footer-left .footer-left-usernum span{
+   font-size: 1.2em;
+   margin-left: 30px;
+}
+footer .footer-left .footer-left-logo {
+   display: flex;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+/* ---------End footer------------ */
+/* ----------zangoole------------- */
+.zangoole {
+   position: fixed;
+   bottom: 50px;
+   left: 100px;
+   background-color: #03acbb;
+   padding: 5px;
+   border-radius: 50%;
+   cursor: pointer;
+}
+.zangoole .border-zangoole{
+   border: 2px solid #fff;
+   padding: 8px;
+   border-radius: 50%;
+   transition: all .3s;
+}
+.zangoole .border-zangoole img{
+   width: 30px;
+   transition: all .3s;
+}
+.zangoole:hover .border-zangoole{
+   border: none;
+   padding: 5px;
+}
+.zangoole:hover img{
+   width: 35px;
+}
+.alert-box {
+   position: fixed;
+   top: 0;
+   left: auto;
+   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 3px 3px -2px rgba(0,0,0,.12)!important;
+   z-index: 999;
+   right: 33%;
+   width: 500px;
+   height: 130px;
+   background-color: #fff;
+   display: none;
+}
+.alert-box .content{
+   position: relative;
+   height: 100%;
+}
+.alert-box .content p{
+   text-align: right;
+   padding: 10px 20px;
+   margin-right: 115px;
+   font-size:1.2em;
+}
+.alert-box .content img{
+   position: absolute;
+   top: 4px;
+   right: 12px;
+   border-left: 1px solid rgba(0,0,0,.1);
+   height: 100%;
+   padding: 20px;
+   width: 100px;
+}
+.alert-box .content .later{
+   padding: 10px 30px;
+   position: absolute;
+   left: 107px;
+   bottom: 15px;
+   border: none;
+   border-radius: 5px;
+}
+.alert-box .content .sure{
+   padding: 9px 30px;
+   position: absolute;
+   left: 15px;
+   bottom: 15px;
+}
+/* ----------raychat---------- */
+.raychat-main-container{
+   background-color: #fff;
+   position: fixed;
+   top: 25px;
+   right: 40px;
+   border-radius: 10px;
+   display: none;
+}
+.raychat-main-container .raychat-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #2392ec;
+   border-radius: 10px 10px 0 0;
+}
+.raychat-main-container .raychat-header .logo a img{
+   width: 35px;
+   height: 35px;
+   margin: 15px;
+}
+.raychat-main-container .raychat-header .title-header{
+   text-align: center;
+   color: #fff;
+   margin: 0 20px;
+}
+.raychat-main-container .raychat-header .title-header .span-oneth{
+   display: block;
+   font-size: 1.3em;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+.raychat-main-container .raychat-header .title-header .span-twoth{
+   font-size: .8em;
+   word-spacing: 1px;
+}
+.raychat-main-container .raychat-header .exit span{
+   color: #fff;
+   margin-left: 15px;
+   font-family: koodak;
+   cursor: pointer;
+   transition: all .3s;
+   padding: 0px 10px;
+   border-radius: 50%;
+   padding-top: 5px;
+}
+.raychat-main-container .raychat-header .exit span:hover{
+   background-color: #2387d9;
+}
+.raychat-main-container .raychat-body{
+   position: relative;
+}
+.raychat-main-container .raychat-body .contact-container{
+   width: 250px;
+   height: auto;
+   background-color: #f5f5f5;
+   margin: 30px auto;
+   padding: 20px;
+   border-radius: 10px;
+}
+.raychat-main-container .raychat-body .contact-container .title-contact{
+   text-align: right;
+}
+.raychat-main-container .raychat-body .contact-container .title-contact h5{
+   font-size: 1.1em;
+   color: #666;
+}
+.raychat-main-container .raychat-body .contact-container .title-contact p{
+   font-size: .8em;
+   color: #888;
+   margin-top: 10px;
+}
+.raychat-main-container .raychat-body .contact-container .input-contact{
+   text-align: right;
+}
+.raychat-main-container .raychat-body .contact-container .input-contact input{
+   display: block;
+   margin-top: 10px;
+   border: none;
+   border-radius: 6px;
+   border:1px solid #d0d0d0;
+   font-size: .8em;
+   color: #888;
+   padding: 10px;
+   width: 90%;
+   outline: none;
+}
+.raychat-main-container .raychat-body .body-logo img{
+   width: 30px;
+   height: 30px;
+   position: absolute;
+   top: 300px;
+   left: 20px;
+}
+.raychat-main-container .raychat-body .span-footer{
+   text-align: right;
+   margin: 90px 20px 20px 0;
+}
+.raychat-main-container .raychat-body .span-footer span{
+   font-size: .9em;
+   color: #999;
+   padding-right: 20px;
+}
+.raychat-logo-container .raychat-logo{
+   background-color: #2392ec;
+   display: inline-block;
+   border-radius: 50%;
+   padding: 15px;
+   position: fixed;
+   bottom: 30px;
+   right: 40px;
+   cursor: pointer;
+}
+.raychat-logo-container .raychat-logo img{
+   width: 39px;
+   height: 39px;
+   transition: all .3s;
+}
+.raychat-logo-container .raychat-logo:hover img{
+   width: 42px;
+   height: 42px;
+}
+/* ----------End raychat---------- */

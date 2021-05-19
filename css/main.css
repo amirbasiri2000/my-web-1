@@ -1,0 +1,38 @@
+@font-face{
+    font-family: yekan;
+    src: url(../font/Yekan.ttf)
+}
+@font-face{
+    font-family: koodak;
+    src: url(../font/KoodakBold.ttf)
+}
+@font-face{
+    font-family: nazanin;
+    src: url(../font/Nazanin.ttf)
+}
+@font-face{
+    font-family: sans;
+    src : url(../font/iransans.ttf)
+}
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-size: 16px;
+    font-family: 'yekan';
+}
+a{
+    text-decoration: none !important;
+}
+ul li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
